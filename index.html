@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+  </head>
+  <body>
+    <!-- NAVIGATION SECTION-->
+    <div class="container">
+      <header>
+        <nav class="page__navigation">
+          <figure>
+            <h1 class="page-title">
+              <img src="./images/logo.svg" alt="flyo company logo" />
+            </h1>
+          </figure>
+          <ul class="navigation__list">
+            <li class="navigation-item"><a href="#">Features</a></li>
+            <li class="navigation-item"><a href="#">Team </a></li>
+            <li class="navigation-item"><a href="#">Sign In </a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <!-- HERO SECTION-->
+        <section class="page__hero grid">
+          <header class="hero__header">
+            <figure class="hero--image">
+              <img src="./images/illustration-1.svg" alt="" />
+            </figure>
+          </header>
+          <article class="hero__content">
+            <h2 class="page-subtitle">
+              All your files in one secure location, accessible anywhere.
+            </h2>
+            <p class="page-description">
+              Fylo stores your most important files in one secure location.
+              Access them wherever you need, share and collaborate with friends,
+              family, and co-workers.
+            </p>
+            <form class="cta-wrapper">
+              <input type="email" placeholder="Enter your emial" required />
+              <button class="btn">Get Started</button>
+            </form>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <div class="background"></div>
+    <!-- FEATURES SECTION-->
+    <section class="features grid">
+      <header class="feature__header">
+        <figure>
+          <img src="./images/illustration-2.svg" alt="" />
+        </figure>
+      </header>
+      <section class="feature__main-content">
+        <article>
+          <h2 class="page-subtitle">Stay productive, wherever you are</h2>
+          <p class="page-description">
+            Never let location be an issue when accessing your files. Fylo has
+            you covered for all of your file storage needs.
+          </p>
+          <p class="page-description">
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required!
+          </p>
+
+          <div class="feature-cta">
+            <a class="cta-link" href="#"
+              >See how Fylo works
+              <span class="arrow-img"
+                ><img src="./images/icon-arrow.svg" alt="" /></span
+            ></a>
+          </div>
+        </article>
+        <!-- TESTOMINAL SECTION-->
+        <div class="testimonial">
+          <span
+            ><img class="quotes" src="./images/icon-quotes.svg" alt=""
+          /></span>
+          <p class="testominal-description">
+            Fylo has improved our team productivity by an order of magnitude.
+            Since making the switch our team has become a well-oiled
+            collaboration machine.
+          </p>
+          <div class="testominal__user">
+            <figure>
+              <img src="./images/avatar-testimonial.jpg" alt="user picture" />
+            </figure>
+            <div class="testominal__user-data">
+              <strong class="user-name"> Kyle Burton</strong>
+              <span class="user-position"> Founder & CEO, Huddle</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- CTA SECTION-->
+
+    <section class="cta-section grid">
+      <header class="cta__header">
+        <h3>Get early access today</h3>
+        <p class="page-description">
+          It only takes a minute to sign up and our free starter tier is
+          extremely generous. If you have any questions, our support team would
+          be happy to help you.
+        </p>
+      </header>
+      <form class="cta-wrapper">
+        <input type="email" required placeholder="email@example.com" />
+        <button class="btn">Get Started For Free</button>
+      </form>
+    </section>
+
+    <!-- FOOTER SECTION-->
+    <footer class="page__footer">
+      <header class="footer__header">
+        <figure>
+          <img src="./images/logo.svg" alt="fylo company logo" />
+        </figure>
+      </header>
+      <div class="grid">
+        <ul class="footer__list">
+          <li>
+            <span class="list-img"
+              ><img src="./images/icon-phone.svg" alt="" /></span
+            ><a href="#">Phone: +1-543-123-4567</a>
+          </li>
+          <li>
+            <span class="list-img"
+              ><img src="./images/icon-email.svg" alt="" /></span
+            ><a href="#">example@fylo.com</a>
+          </li>
+        </ul>
+        <ul class="footer__list">
+          <li><a href="">About Us</a></li>
+          <li><a href="">Jobs </a></li>
+          <li><a href="">Press </a></li>
+          <li><a href="">Blog</a></li>
+        </ul>
+        <ul class="footer__list">
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">Terms</a></li>
+          <li><a href="">Privacy</a></li>
+        </ul>
+        <div class="social__media">
+          <ul class="social__media--list">
+            <li><img src="./images/facebook.png" alt="facebook icon" /></li>
+            <li><img src="./images/twitter.png" alt="twitter icon" /></li>
+            <li><img src="./images/instagram.png" alt="instagram icon" /></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons"
+  >Facebook icons created by Stockio - Flaticon</a
+>
+<a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons"
+  >Twitter icons created by Stockio - Flaticon</a
+>
+<a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons"
+  >Instagram icons created by Payungkead - Flaticon</a
+> -->
+  </body>
+</html>
